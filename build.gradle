@@ -1,0 +1,19 @@
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+
+
+subprojects {
+    buildscript {
+        repositories {
+            jcenter()
+            mavenLocal()
+            maven { url "https://repo.grails.org/grails/core" }
+        }
+    }
+    repositories {
+        jcenter()
+        mavenLocal()
+        maven { url "https://repo.grails.org/grails/core" }
+    }
+
+}
