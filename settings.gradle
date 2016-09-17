@@ -12,6 +12,7 @@
 // To declare projects as part of a multi-project build use the 'include' method
 include 'shared'
 //include 'api'
+include 'services:boot-webservice'
 include 'services:webservice'
 include 'client:web-client'
 

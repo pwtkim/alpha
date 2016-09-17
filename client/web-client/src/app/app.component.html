@@ -1,15 +1,13 @@
+<md-sidenav-layout>
+    <md-sidenav #sidenav mode="side" class="app-sidenav">
+        Sidenav
+    </md-sidenav>
 
-<main>
-    <md-sidenav-layout>
-        <h1>Hello from Angular 2 App with Webpack</h1>
-        <md-sidenav #sidenav mode="side" class="app-sidenav">
-            Sidenav
-        </md-sidenav>
+    <md-toolbar color="primary">
+        <button class="app-icon-button" (click)="sidenav.toggle()">
+            <i class="material-icons app-toolbar-menu">menu</i>
+        </button>
+        <span>Alpha</span>
+    </md-toolbar>
+</md-sidenav-layout>
 
-        <md-toolbar color="primary">
-            <button class="app-icon-button" (click)="sidenav.toggle()">
-                <i class="material-icons app-toolbar-menu">menu</i>
-            </button>
-        </md-toolbar>
-    </md-sidenav-layout>
-</main>
